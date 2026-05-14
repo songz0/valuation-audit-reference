@@ -23,7 +23,7 @@ import argparse
 import json
 
 PYTHON = os.path.join(os.path.dirname(sys.executable), "python.exe") if os.name == "nt" else sys.executable
-DEFAULT_NOTEBOOK = "741b07fd-fa59-4ee3-bcf7-e83d530b2068"
+DEFAULT_NOTEBOOK = "YOUR_NOTEBOOK_ID"
 DEFAULT_TIMEOUT = 150  # seconds — NotebookLM 响应约 80-90s
 
 
